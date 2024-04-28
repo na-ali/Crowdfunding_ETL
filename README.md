@@ -13,11 +13,17 @@ ETL_Mini_Project_NRomanoff_JSmith.ipynb: Jupyter notebook containing the code fo
 Resources:
 
 crowdfunding.xlsx: Excel file containing crowdfunding data.
+
 contacts.xlsx: Excel file containing contacts data.
+
 category.csv: CSV file containing the category DataFrame.
+
 subcategory.csv: CSV file containing the subcategory DataFrame.
+
 campaign.csv: CSV file containing the campaign DataFrame.
+
 contacts.csv: CSV file containing the contacts DataFrame.
+
 crowdfunding_db_schema.sql: SQL file containing the database schema.
 
 Project Deliverables
