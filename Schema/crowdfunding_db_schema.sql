@@ -5,8 +5,6 @@ CREATE TABLE category (
 	category VARCHAR(20),
 	PRIMARY KEY (category_id)
 )
-	
-SELECT * FROM category
 
 --- subcategory
 CREATE TABLE subcategory (
@@ -15,25 +13,21 @@ CREATE TABLE subcategory (
 	PRIMARY KEY (subcategory_id)
 )
 
-SELECT * FROM subcategory
-
 --- contacts
 CREATE TABLE contacts (
 	contact_id INT,
 	first_name VARCHAR(15),
 	last_name VARCHAR(15),
-	email VARCHAR(50),
+	email VARCHAR(100) UNIQUE,
 	PRIMARY KEY (contact_id)
 )
-	
-SELECT * FROM contacts
 
 --- campaign
 CREATE TABLE campaign (
 	cf_id INT,
 	contact_id INT,
 	company_name VARCHAR(100),
-	description VARCHAR(200),
+	description VARCHAR(255),
 	goal FLOAT,
 	pledged FLOAT,
 	outcome VARCHAR(15),
@@ -50,4 +44,8 @@ CREATE TABLE campaign (
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 )
 
+--- view tables
+SELECT * FROM category
+SELECT * FROM subcategory
+SELECT * FROM contacts
 SELECT * FROM campaign
