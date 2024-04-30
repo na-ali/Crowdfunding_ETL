@@ -8,7 +8,7 @@ This project involves building an ETL (Extract, Transform, Load) pipeline using 
 
 Project Structure
 
-ETL_Mini_Project_NRomanoff_JSmith.ipynb: Jupyter notebook containing the code for the ETL pipeline. Each section corresponds to a specific task. 
+ETL_Mini_Project_NAli_EDuplock_MLiaqat_VVecerka.ipynb: Jupyter notebook containing the code for the ETL pipeline. Each section corresponds to a specific task. 
 
 Resources:
 
